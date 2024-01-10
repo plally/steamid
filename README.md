@@ -1,5 +1,5 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/plally/steamid.svg)](https://pkg.go.dev/github.com/plally/steamid)
-
+[![Go Report Card](https://goreportcard.com/badge/github.com/plally/steamid)](https://goreportcard.com/report/github.com/plally/steamid)
 # steamid
 Convert steamIDs between their types  
 Supports
