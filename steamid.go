@@ -10,7 +10,7 @@ type SteamID uint64
 
 const steamIDBase = 76561197960265728
 
-// SteamID3 parses steam ids in teh form '[U:1:22202]'
+// SteamID3 parses steam ids in the form '[U:1:22202]'
 func SteamID3(steamString string) (SteamID, error) {
 	split := strings.Split(steamString[:len(steamString)-1], ":")
 	if len(split) != 3 {
